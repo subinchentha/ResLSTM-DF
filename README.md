@@ -67,14 +67,6 @@ The model’s performance is visualized through the following plots:
 ### ROC Curve
 ![ROC Curve](images/roc_curve.png)
 
-### How to Generate Result Plots
-- The confusion matrix and ROC curve are generated during evaluation in `train_resnet_lstm.ipynb`.
-- Save the plots to the `images/` folder:
-  ```python
-  import matplotlib.pyplot as plt
-  plt.savefig('images/test_confusion_matrix.png')
-  plt.savefig('images/roc_curve.png')
-  ```
 
 ## Contributing
 Contributions are welcome! Please:
