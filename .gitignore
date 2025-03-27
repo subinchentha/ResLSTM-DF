@@ -1,4 +1,4 @@
-# Python template entries (common ones)
+# Python template entries (from GitHub)
 __pycache__/
 *.py[cod]
 *$py.class
@@ -24,7 +24,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Project-specific entries (from previous setup)
+# Project-specific entries (from your setup)
 *.npy
 *.pth
 processed_data/
